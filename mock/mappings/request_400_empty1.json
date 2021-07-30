@@ -1,0 +1,19 @@
+
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/v1/users\\?userId=",
+        "queryParameters": {
+                "userId": {
+                    "equalTo": "1"
+                }
+            }
+    },
+    "response": {
+        "status": 400,
+        "bodyFileName": "response_400.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

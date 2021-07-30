@@ -1,0 +1,14 @@
+
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/v1/users"
+    },
+    "response": {
+        "status": 400,
+        "bodyFileName": "response_400.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

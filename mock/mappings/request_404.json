@@ -1,0 +1,14 @@
+
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/v1/users\\?userId=[2-5]*"
+    },
+    "response": {
+        "status": 404,
+        "bodyFileName": "response_404.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

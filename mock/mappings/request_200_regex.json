@@ -1,0 +1,14 @@
+
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/v1/users\\?userId=[6-9]*"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "response_200.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
